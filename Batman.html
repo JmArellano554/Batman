@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Batman: El Caballero de la Noche</title>
+
+    <!-- ENLACE AL CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <h1>Batman: El Caballero de la Noche</h1>
+
+        <p>Película dirigida por Christopher Nolan</p>
+
+    </header>
+
+    <!-- CONTENIDO -->
+    <main>
+
+        <!-- SECCIÓN PRINCIPAL -->
+        <section>
+
+            <h2>Sinopsis</h2>
+
+            <p>
+                Batman enfrenta al Joker, un criminal que busca destruir
+                el orden de Gotham City mediante el caos.
+            </p>
+
+            <img 
+                src="./img/Batman.jpg"
+                alt="Poster de Batman El Caballero de la Noche"
+            >
+
+            <!-- BOTÓN CAMBIAR COLOR -->
+            <h3>Cambiar color de fondo</h3>
+
+            <button onclick="cambiarColor()">
+                Cambiar Fondo
+            </button>
+
+            <!-- CONTADOR -->
+            <h3>Contador de clics</h3>
+
+            <button onclick="contarClicks()">
+                Hacer clic
+            </button>
+
+            <p id="contador">Cantidad de clics: 0</p>
+
+            <!-- MOSTRAR FECHA -->
+            <h3>Mostrar Fecha y Hora</h3>
+
+            <button onclick="mostrarFecha()">
+                Mostrar Fecha
+            </button>
+
+            <p id="fecha"></p>
+
+            <!-- MOSTRAR / OCULTAR -->
+            <h3>Información Extra</h3>
+
+            <button onclick="toggleInfo()">
+                Mostrar/Ocultar Información
+            </button>
+
+            <div id="infoExtra">
+
+                <p>
+                    Heath Ledger ganó un Oscar póstumo por su interpretación
+                    del Joker en esta película.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- COLUMNA LATERAL -->
+        <aside>
+
+            <h2>Personajes</h2>
+
+            <ul>
+                <li>Batman</li>
+                <li>Joker</li>
+                <li>Harvey Dent</li>
+                <li>James Gordon</li>
+            </ul>
+
+        </aside>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>© 2026 - Página creada por un fan de Batman</p>
+
+    </footer>
+
+    <!-- ENLACE AL ARCHIVO JS -->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
